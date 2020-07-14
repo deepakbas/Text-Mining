@@ -1,0 +1,31 @@
+#Merge list of dfs into a single columnwise df using reduce function
+#Function to reduce memory usage based on datatypes
+
+##Preprocessing a Text document
+#Concatenate lines from row/cell which are seperated by linebreaks into a single line. This helps in defining what is sentence in an NLP tasks
+#Remove duplicate lines
+#Remove leading and Trailing spaces in a text(strip()), multiple spaces
+#Remove blank lines
+
+#Remove accentuation from the given string.
+#Helps in analyzing corpus which is multi-linguistic
+#deaccent of a string
+#deaccent of a list/corpus with n documents
+
+#Extract sentences from each document by split lines using RE
+#Get the number of sentences in each document
+# remove stop-words
+#convert into lowercase and remove punctuation from dataframe
+
+#Get the total count of words in the corpus
+#Get the total count of words in each document
+#Counter to get the count of each word
+#count of unique_words in the corpus
+
+#get the word_index for each document
+#get the words and phrases(len 2/3 of contiguous word)s appearing greater than min_frequency
+##Identify phrases as mentioned in El-Kishky, Ahmed, et al. "Scalable topical phrase mining from text corpora."
+
+#filter only phrases(len 2/3 of contiguous word)s appearing greater than min_frequency in order of count
+
+##get documentwise list of all applicable phrases with its count
